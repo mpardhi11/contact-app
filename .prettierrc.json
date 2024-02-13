@@ -1,0 +1,12 @@
+{
+  "content": ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+  "theme": {
+    "extend": {}
+  },
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "variants": {},
+  "purge": {
+    "content": ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"]
+  },
+  "printWidth": 120
+}
